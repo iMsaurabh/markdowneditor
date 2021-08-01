@@ -1,0 +1,62 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.editor,
+.previewer {
+	background-color: yellow;
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+}
+
+.editor {
+	height: 400px;
+	min-width: 600px;
+}
+
+.previewer {
+	min-width: 800px;
+	max-width: 1000px;
+	max-height: 600px;
+	background-color: lightblue;
+}
+
+.mdDisplay {
+	padding: 10px 10px 0 10px;
+	overflow: auto;
+}
+
+.mdDisplay img {
+	width: 100%;
+	height: auto;
+}
+
+.infoBar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0;
+	margin: auto;
+	background-color: pink;
+	width: 100%;
+}
+
+.infoBarLeft {
+	display: flex;
+	align-items: center;
+}
+
+i {
+	padding: 0 5px 0 5px;
+}
+
+.inputBox {
+	flex: 1;
+	padding: 2px;
+	white-space: pre-wrap;
+}
